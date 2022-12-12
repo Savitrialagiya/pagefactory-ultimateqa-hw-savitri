@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="pagefactory-hw-ultimateqa-week5-savitri(failed)">
+    <classes>
+      <class name="com.ultimateqa.testsuite.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="inIt"/>
+          <include name="userShouldNavigateToLoginPageSuccessfully"/>
+        </methods>
+      </class> <!-- com.ultimateqa.testsuite.LoginPageTest -->
+    </classes>
+  </test> <!-- pagefactory-hw-ultimateqa-week5-savitri(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
